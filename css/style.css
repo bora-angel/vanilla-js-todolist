@@ -1,0 +1,55 @@
+body{
+    background:beige;
+}
+*{
+    font-weight: bold;
+    font-family: serif;
+}
+.hidden{
+    display:none;
+}
+
+.bgImage{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    width:100vw;
+    height:100vh;
+}
+
+.clock{
+    text-align: center;
+    font-size: 80px;
+    font-family:serif;
+}
+form, .helloName{
+    text-align: center;
+    margin:0 auto;
+    line-height: 35px;
+}
+input{
+    width:200px;
+}
+.todo-list{
+    text-align: center;
+    font-size: 22px;
+    list-style-type: none;
+    color:coral;
+    line-height: 30px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    line-height: 30px;
+}
+.quote{
+    text-align: center;
+    color:crimson;
+    font-size: 18px;
+}
+.weather{
+    text-align:right;
+    color:cornsilk;
+    font-size: 11px;
+}
